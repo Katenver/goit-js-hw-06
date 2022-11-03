@@ -25,13 +25,13 @@ const validInputEl = document.querySelector('#validation-input');
 const onBlurVerify = () => {
     if (validInputEl.value.length < validInputEl.dataset.length){
        
-       validInputEl.classlist.add('invalid');
-       validInputEl.classlist.remove('valid');
+       validInputEl.classList.add('invalid');
+       validInputEl.classList.remove('valid');
         
     } else {
        
-        validInputEl.classlist.add('valid');
-        validInputEl.classlist.remove('invalid');
+        validInputEl.classList.add('valid');
+        validInputEl.classList.remove('invalid');
     } 
 }
 
