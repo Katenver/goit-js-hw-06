@@ -15,10 +15,7 @@
 // полів форми методом reset.
 
 const formEl = document.querySelector('.login-form');
-const emailInputEl = document.querySelector('.login-form');
-const passwordInputEl = document.querySelector('.login-form');
 
-console.log(emailInputEl)
 
 formEl.addEventListener("submit", sendForm);
 
