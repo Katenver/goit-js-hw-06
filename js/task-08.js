@@ -34,4 +34,10 @@ const {
     alert("ЗАПОВНИ ВСІ ПОЛЯ")
   }
 
+  const userInfo = {
+    email: email.value,
+    password: password.value,
+  }
+  console.log(userInfo);
+  event.currentTarget.reset();
 }
