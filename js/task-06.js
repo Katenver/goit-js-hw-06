@@ -23,7 +23,7 @@
 
 const validInputEl = document.querySelector('#validation-input');
 const onBlurVerify = () => {
-    if (validInputEl.value.length < validInputEl.dataset.length){
+    if (validInputEl.value.length !== +validInputEl.dataset.length){
        
        validInputEl.classList.add('invalid');
        validInputEl.classList.remove('valid');
